@@ -4,7 +4,7 @@
 g++ -O2 prime_factorization.cpp -o prime_factorization \`pkg-config --cflags --libs flint\`
 
 ## Usage
-./prime_factorization <number>
+./prime_factorization \<n-as-decimal-string>
 
 ## Examples
 ./prime_factorization 786630615595626829796137755567437844038832146564530660386728812791938555036352000 \
